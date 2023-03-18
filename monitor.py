@@ -49,9 +49,11 @@ def compare(file1,file2):
                                 #print('Awesome')
                                 #send_notificaton(f'Got a new subdomain: {subdomain}')
                                 data1.write(f"{subdomain}\n")
-
-        send_notification(f'[+] Got a new subdomain: {subdomain}')
+        flag = True
         for subdomain in arr:
+                if flag:
+                        print('[+] Got new subdomains')
+                        flag = False
                 send_notification(f'Subdomain: {subdomain}')
 
 def cmd():
