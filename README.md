@@ -15,3 +15,7 @@ Example:
 
 python3 monitor.py -d bepractical.tech -t 3600 -w <discord_webhook>
 
+
+Learn how to build your own scanner
+
+https://www.youtube.com/watch?v=vKZuFl6HvkE
